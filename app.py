@@ -21,11 +21,11 @@ def home():
             hour = current_time.hour
 
             if hour < 12:
-                greeting = f"Good morning, {name}!"
+                greeting = f"Good morning!!, {name}!"
             elif hour < 18:
-                greeting = f"Good afternoon, {name}!"
+                greeting = f"Good afternoon!!, {name}!"
             else:
-                greeting = f"Good evening, {name}!"
+                greeting = f"Good evening!!, {name}!"
 
     return render_template(
         "index.html",
